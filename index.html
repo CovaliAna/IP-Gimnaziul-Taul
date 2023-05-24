@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    <title>Home - IP Gimnaziul Țaul</title>
+</head>
+
+<body>
+
+    <header data-aos="fade-down">
+        <a href="index.html">
+            <img src="images/logo.png">
+        </a>
+
+        <nav id="navbar">
+            <a onclick="mobileMenu()" href="#despre">Despre noi</a>
+            <a onclick="mobileMenu()" href="#galerie">Galerie</a>
+            <a onclick="mobileMenu()" href="#contacte">Contacte</a>
+            <a onclick="mobileMenu()" href="pages/noutati.html">Noutăți</a>
+            <a onclick="mobileMenu()" href="pages/orar.html">Orar</a>
+            <i onclick="mobileMenu()" id="hamburger" class="fas fa-bars"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+
+            <div class="intro-content" data-aos="fade-in" data-aos-delay="500">
+                <img class="logo" src="images/logo.png">
+                <h1>IP Gimnaziul Țaul</h1>
+                <h2>Un gimnaziu pentru toți</h2>
+
+                <a class="intro-btn" id="despre-btn" href="#despre">Despre noi</a>
+                <a class="intro-btn" href="pages/noutati.html">Noutăți</a>
+                <a class="intro-btn" href="pages/orar.html">Orar</a>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1680277011">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </section>
+
+        <section id="despre" data-aos="fade-in">
+            <h1 class="centered">Despre noi</h1>
+
+            <i class="fas fa-graduation-cap i1"></i>
+            <i class="fas fa-pencil-alt i2"></i>
+            <i class="fas fa-book i3"></i>
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+            <i class="fas fa-book i6"></i>
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+
+
+
+            <p class="p-despre">
+                Prima școală în s.Țaul a fost construită în anul 1905, ca semn de recunoștință pentru săteni din partea
+                lui Andrei Pommer, care cumpărase moșia s.Țaul. În prezent această clădire găzduiește sediul primăriei
+                Țaul. În anul 1970 în noul centru al s.Țaul, a fost construit un edificiu cu 4 nivele, pentru 1164
+                elevi. De peste 50 de ani, școala sătească a educat mai multe generații de țăuleni. Începând cu anul
+                1991 în incinta școlii medii de culturăm generală din Țaul, a fost organizat un liceu, care a funcționat
+                până în anul 2010, când instituția a fost transformată în gimnaziu. Acualmente, corpul didactic al
+                gimnaziului este compus din 19 cadre didactice calificate. Instituția este frecventată de 220 elevi.
+                Începând cu anul 2013 funcția de director al gimnaziului Țaul este deținută de dnul Ion IURCIȘIN. În
+                fiecare an elevii gimnaziului participă activ la toate concursurile organizate la nivel de raion și
+                republică, o mare parte din ei fiind apreciați și menționați.
+            </p>
+
+            <div class="slideshow">
+
+                <div class="slide">
+
+                    <div class="slide-text">
+                        <i class="fas fa-user-tie"></i>
+                        <p>
+                            Avem un colectiv de profesori cu
+                            experiență în domeniu de mulți ani,
+                            care sunt deschiși pentru orice colaborare
+                            și sunt înțelegători.
+                        </p>
+                    </div>
+
+                    <img src="images/s6.jpg">
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="slide-text">
+                        <i class="fas fa-book"></i>
+                        <p>
+                            Dispunem de o bibliotecă modernă.
+                            Parteneriatul cu instituțiile din România
+                            ne permit să facem rost de ultimele cărți.
+
+                        </p>
+                    </div>
+
+                    <img src="images/s2.jpeg">
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="slide-text">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>
+                            Avem o rată mare de absolvire la examenele
+                            de BAC. Elevii noștri se descurcă foarte bine
+                            la universitățile pe care le aleg după absolvire.
+
+                        </p>
+                    </div>
+
+                    <img src="images/s1.jpg">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="galerie">
+            <h1 class="centered">Galerie</h1>
+
+            <i class="fas fa-pencil-alt i2"></i>
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+            <div class="galerie-container">
+
+                <a data-aos="zoom-in" data-aos-delay="300" href="images/s1.jpg">
+                    <img src="images/s1.jpg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="500" href="images/s2.jpeg">
+                    <img src="images/s2.jpeg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="700" href="images/s3.jpeg">
+                    <img src="images/s3.jpeg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="900" href="images/s4.jpeg">
+                    <img src="images/s4.jpeg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="1100" href="images/s5.jpeg">
+                    <img src="images/s5.jpeg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="1300" href="images/s6.jpg">
+                    <img src="images/s6.jpg">
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="contacte" data-aos="fade-in">
+
+            <h1 class="centered">Contacte</h1>
+
+            <div class="row">
+                <div class="col-50 contacte-info">
+
+                    <b>Telefon: </b>
+                    <a href="tel:025161309">025161309</a>
+
+                    <br />
+
+                    <b>Adresa: </b>
+                    <span>Str. Ștefan cel Mare 66</span>
+
+                    <br />
+
+                    <b>Email: </b>
+                    <a href="mailto:gimnaziul.taul@gmail.com">gimnaziul.taul@gmail.com</a>
+
+                    <br />
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="email" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" placeholder="Mesajul" rows="5" required></textarea>
+                            <br />
+                            <input id="transmite" onclick="send()" type="button" value="Transmite">
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <iframe class="harta"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42540.69599091216!2d27.605161039952183!3d48.21059332313431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47334bca8aab9e2b%3A0xdf6bcbd62d035862!2zyJphdWwsIE1vbGRvdmE!5e0!3m2!1sen!2s!4v1682698498235!5m2!1sen!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>">
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer data-aos="fade-in" data-aos-offset="-400px">
+        <div>IP Gimnziul Țaul ©️ </div>
+    </footer>
+
+</body>
+
+</html>
