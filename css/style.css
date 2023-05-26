@@ -490,6 +490,10 @@ footer {
         padding-right: 10px;
     }
 
+    #intro {
+        background-position: 60% 0%;
+    }
+
     .galerie-container img {
         width: 160px;
         height: 140px;
